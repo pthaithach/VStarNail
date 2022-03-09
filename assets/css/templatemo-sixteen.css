@@ -55,21 +55,19 @@ ul.social-icons li a:hover {
 a.filled-button {
 	background-color: #f33f3f;
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: capitalize;
-	font-weight: 300;
 	padding: 10px 20px;
 	border-radius: 5px;
 	display: inline-block;
 	transition: all 0.3s;
+	font-weight: 300;
 }
 
 a.filled-button:hover {
 	background-color: #121212;
 	color: #fff;
 }
-
-=====
 
 * {
   padding: 0;
@@ -139,12 +137,8 @@ ul.submenu > li:hover > a {
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   border-top: 9px solid #fff;
-  padding-left: 10px;
+  /*padding-left: 10px;*/    /*H edit*/
 }
-
-
-
-=====
 
 .section-heading {
 	text-align: left;
@@ -493,7 +487,7 @@ header .navbar {
 }
 
 .product-item .down-content {
-	padding: 30px;
+	padding: 20px;
 	position: relative;
 }
 
@@ -529,7 +523,7 @@ header .navbar {
 	font-size: 14px;
 }
 
-.product-item .down-content span {
+.product-item .down-content .arrow {
 	position: absolute;
 	right: 30px;
 	bottom: 30px;
@@ -1038,9 +1032,10 @@ footer .inner-content p a {
 		top: 5px!important;
 		left: 1px!important;
 	}
-	.product-item .down-content span {
+	.product-item .down-content .arrow {
 		left: 1px!important;
-		bottom: 5px!important;
+		/*bottom: 5px!important;*/
+		bottom: 0px!important;   /*H edit*/
 	}
 	.best-features .left-content {
 		margin-bottom: 30px;
@@ -1121,10 +1116,37 @@ footer .inner-content p a {
 		right: 0;
 		margin-bottom: 20px;
 	}
-	.product-item .down-content span {
+	.product-item .down-content .arrow {
 		position: relative;
 		right: 0;
 		bottom: 0;
+	}
+}
+@media (min-width: 768px){
+	#menu > li > ul.dropdown_menu {
+		width: 200px !important;
+	}
+	.menu-item{
+		width: 200px;
+		float: left;
+	}
+	.price{
+		font-weight: bold;
+		color: white;
+		text-align: right;
+	}
+	.navbar .navbar-brand{
+		padding: 20px 0;
+	}
+	.filled-button.online-booking-btn{
+		font-size: 25px !important;
+		padding: 10px 35px !important;
+	}
+	.phone-booking{
+		font-size: 48px;
+		color: white;
+		font-weight: 600;
+		margin-top: 5px;
 	}
 }
 @media (min-width: 1024px) {
@@ -1140,6 +1162,21 @@ footer .inner-content p a {
     .navbar .navbar-brand{
         margin-top: -12px;
     }
+
+	/*Read more button*/
+	.product-item .down-content {
+		padding: 15px;
+	}
+	#menu > li{
+		width: 100%;
+	}
+	#menu li a {
+		padding: 15px 10px;
+	}
+	.product-item .down-content .arrow {
+		right: 8px;
+		bottom: 23px;
+	}
 }
 @media (min-width: 1440px) {
     header .navbar{
@@ -1151,4 +1188,60 @@ footer .inner-content p a {
     .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show, .navbar .navbar-nav .show>.nav-link{
         padding-bottom: 25px;
     }
+}
+@media (max-width: 480px){
+	.navbar-brand{
+		padding-top: 20px;
+		margin-left: 20px;
+	}
+	.phone-booking{
+		font-size: 40px !important;
+		color: white;
+		font-weight: 500;
+	}
+	.online-booking-btn{
+		padding: 10px 30px !important;
+		font-size: 20px !important;
+	}
+}
+
+#menu > li > ul.dropdown_menu{
+	width: 180px;
+	background: #F33F3F;
+}
+.dropdown_menu li{
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+
+.price {
+	font-weight: bold;
+}
+button:focus{
+	outline: none;
+}
+
+
+/*mneu in Modal*/
+.modal{
+	z-index: 99999;
+}
+.menu-popup .menu-item,
+.menu-popup .price
+{
+	color: black;
+}
+.modal-body{
+	height: 600px;
+	overflow-y: scroll;
+}
+.menu-popup .menu-item{
+	width: 460px;
+}
+.menu-popup li{
+	border-bottom: 1px solid #f4f4f4;
+	width: 100%;
+}
+.text-black{
+	color: black;
 }
