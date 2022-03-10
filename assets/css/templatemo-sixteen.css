@@ -73,15 +73,15 @@ a.filled-button:hover {
   padding: 0;
   margin: 0;
 }
-#menu {
+.menu {
   list-style: none;
   height: 48px;
 }
-#menu li {
+.menu li {
   text-align: left;
   color: #fff;
 }
-#menu li a {
+.menu li a {
   text-decoration: none;
   font-size: 16px;
   display: block;
@@ -89,12 +89,12 @@ a.filled-button:hover {
   color: #fff;
   background-color: #F33F3F;
 }
-#menu > li {
+.menu > li {
   float: left;
   border-right: 1px solid #fff;
   position: relative;
 }
-#menu > li > ul.dropdown_menu {
+.menu > li > ul.dropdown_menu {
   position: absolute;
   list-style: none;
   display: none;
@@ -102,10 +102,10 @@ a.filled-button:hover {
   left: 0;
   width: 123px;
 }
-#menu > li:hover > a {
+.menu > li:hover > a {
   background-color: #F33F3F;
 }
-#menu > li:hover > ul.dropdown_menu {
+.menu > li:hover > ul.dropdown_menu {
   z-index: 100;
   display: block;
 }
@@ -1123,7 +1123,7 @@ footer .inner-content p a {
 	}
 }
 @media (min-width: 768px){
-	#menu > li > ul.dropdown_menu {
+	.menu > li > ul.dropdown_menu {
 		width: 200px !important;
 	}
 	.menu-item{
@@ -1167,10 +1167,10 @@ footer .inner-content p a {
 	.product-item .down-content {
 		padding: 15px;
 	}
-	#menu > li{
+	.menu > li{
 		width: 100%;
 	}
-	#menu li a {
+	.menu li a {
 		padding: 15px 10px;
 	}
 	.product-item .down-content .arrow {
@@ -1205,7 +1205,7 @@ footer .inner-content p a {
 	}
 }
 
-#menu > li > ul.dropdown_menu{
+.menu > li > ul.dropdown_menu{
 	width: 180px;
 	background: #F33F3F;
 }
@@ -1244,4 +1244,10 @@ button:focus{
 }
 .text-black{
 	color: black;
+}
+a{
+	cursor: pointer;
+}
+.menu-popup li.no-line{
+	border: none;
 }

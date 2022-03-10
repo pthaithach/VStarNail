@@ -54,8 +54,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="products.html">Our Service</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Coupons</a>
+              
               <li class="nav-item">
                 <a class="nav-link" href="https://www.lldtek.com/salon/appt/MzMxMTl8dnN0YXJuYWlsNjF8TUFfMDcxNDZ8OTY3ZjY1YzJkNGU5YzA2MWUxNWVlOGM5NzA3MTZkNzE=">Booking</a>
               </li>
@@ -82,14 +81,18 @@
         </div>
         <div class="banner-item-01" style="background-image: url(assets/images/vstar-nails-cover-02.jpg);">
           <div class="text-content">
-            <h4></h4>
-            <h2></h2>
+              <a href="https://www.lldtek.com/salon/appt/MzMxMTl8dnN0YXJuYWlsNjF8TUFfMDcxNDZ8OTY3ZjY1YzJkNGU5YzA2MWUxNWVlOGM5NzA3MTZkNzE=" class="filled-button online-booking-btn">
+                  <i class="fa fa-calendar pr-3"></i>ONLINE BOOKING</a>
+            
+            <div class="phone-booking" style="color: #F33F3F;">774.773.3902</div>
           </div>
         </div>
         <div class="banner-item-03" style="background-image: url(assets/images/vstar-nails-cover-03.jpg);">
           <div class="text-content">
-            <h4></h4>
-            <h2></h2>
+              <a href="https://www.lldtek.com/salon/appt/MzMxMTl8dnN0YXJuYWlsNjF8TUFfMDcxNDZ8OTY3ZjY1YzJkNGU5YzA2MWUxNWVlOGM5NzA3MTZkNzE=" class="filled-button online-booking-btn">
+                  <i class="fa fa-calendar pr-3"></i>ONLINE BOOKING</a>
+            <!--<h4>V Star Nails</h4>-->
+            <div class="phone-booking" style="color: #F33F3F;">774.773.3902</div>
           </div>
         </div>
       </div>
@@ -114,9 +117,7 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-1.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="contact.html"><h4>Nails Care</h4></a>
-                          <!--<h6>$10</h6>-->
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                          <div class="row justify-content-between mr-lg-1 mr-xl-3">
+                          <div class="row justify-content-between mr-lg-1 mr-xl-0">
                               <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                   <ul class="stars">
                                       <li><i class="fa fa-star"></i></li>
@@ -127,67 +128,147 @@
                                   </ul>
                               </div>
                               <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                  <ul id="menu">
+                                  <ul class="menu">
                                       <li>
-                                          <a href="javascript:void(0)">
-                                              Read more
+                                          <a data-toggle="modal" data-target="#NailsCare"> Read more
                                               <span class="arrow arrow-down"></span>
                                           </a>
-                                          <ul class="dropdown_menu">
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Manicure </div>
-                                                      <div class="col-md-4 price">$20</div>
+
+                                          <!-- Modal -->
+                                          <div class="modal fade" id="NailsCare" tabindex="-1" role="dialog" aria-labelledby="NailsCareTitle" aria-hidden="true">
+                                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                                  <div class="modal-content">
+                                                      <div class="modal-header">
+                                                          <h5 class="modal-title text-black" id="NailsCareTitle">Nails Care</h5>
+                                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                              <span aria-hidden="true">&times;</span>
+                                                          </button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                          <ul class="menu-popup">
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Manicure </div>
+                                                                      <div class="col-md-4 price">$20</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Manicure French</div>
+                                                                      <div class="col-md-4 price">$25</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Children Pedicure (under 12 year) </div>
+                                                                      <div class="col-md-4 price">$25</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Children Pedicure French(under 12 year) </div>
+                                                                      <div class="col-md-4 price">$30</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Pedicure</div>
+                                                                      <div class="col-md-4 price">$30</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Pedicure French</div>
+                                                                      <div class="col-md-4 price">$35</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Manicure & Children Pedicure</div>
+                                                                      <div class="col-md-4 price">$40</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Manicure & Children Pedi French (Both)</div>
+                                                                      <div class="col-md-4 price">$50</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Manicure & MPeakdeicaunreappointment (/book)</div>
+                                                                      <div class="col-md-4 price">$50</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Manicure & Pedicure French (Both)</div>
+                                                                      <div class="col-md-4 price">$60</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Nail Removal</div>
+                                                                      <div class="col-md-4 price">$10</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Nail Removal with Manicure</div>
+                                                                      <div class="col-md-4 price">$25</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Nail Design by Hand</div>
+                                                                      <div class="col-md-4 price">$5 & up</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Cut Down</div>
+                                                                      <div class="col-md-4 price">$3</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Nail Repair</div>
+                                                                      <div class="col-md-4 price">$5</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Polish Change Nail</div>
+                                                                      <div class="col-md-4 price">$10</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Polish Change Toe</div>
+                                                                      <div class="col-md-4 price">$15</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Para n Treatment Hand</div>
+                                                                      <div class="col-md-4 price">$10</div>
+                                                                  </div>
+                                                              </li>
+                                                              <li class="no-line">
+                                                                  <div class="row p-3">
+                                                                      <div class="col-md-8 menu-item">Para n Treatment Feet</div>
+                                                                      <div class="col-md-4 price">$10</div>
+                                                                  </div>
+                                                              </li>
+                                                          </ul>
+                                                      </div>
                                                   </div>
-                                              </li>
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Manicure French</div>
-                                                      <div class="col-md-4 price">$25</div>
-                                                  </div>
-                                              </li>
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Children Pedicure (under 12 year) </div>
-                                                      <div class="col-md-4 price">$25</div>
-                                                  </div>
-                                              </li>
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Children Pedicure French(under 12 year) </div>
-                                                      <div class="col-md-4 price">$30</div>
-                                                  </div>
-                                              </li>
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Pedicure</div>
-                                                      <div class="col-md-4 price">$30</div>
-                                                  </div>
-                                              </li>
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Pedicure French</div>
-                                                      <div class="col-md-4 price">$35</div>
-                                                  </div>
-                                              </li>
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Manicure & Children Pedicure</div>
-                                                      <div class="col-md-4 price">$40</div>
-                                                  </div>
-                                              </li>
-                                              <li>
-                                                  <div class="row p-3">
-                                                      <div class="col-md-8 menu-item">Manicure & Children Pedi French (Both)</div>
-                                                      <div class="col-md-4 price">$50</div>
-                                                  </div>
-                                              </li>
-                                          </ul>
+                                              </div>
+                                          </div>
                                       </li>
                                   </ul>
                               </div>
                           </div>
-
 
                         </div>
                       </div>
@@ -197,8 +278,7 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-2.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Full Set</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                            <div class="row justify-content-between mr-lg-1 mr-xl-3">
+                            <div class="row justify-content-between mr-lg-1 mr-xl-0">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
@@ -209,146 +289,57 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModalLong">
+                                            <a data-toggle="modal" data-target="#FullSet">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <!-- Button trigger modal -->
-                                            <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">-->
-                                                <!--Launch demo modal-->
-                                            <!--</button>-->
 
                                             <!-- Modal -->
-                                            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                            <div class="modal fade" id="FullSet" tabindex="-1" role="dialog" aria-labelledby="FullSetTitle" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h5 class="modal-title text-black" id="exampleModalLongTitle">Full Set</h5>
+                                                            <h5 class="modal-title text-black" id="FullSetTitle">Full Set</h5>
                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                                 <span aria-hidden="true">&times;</span>
                                                             </button>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <div class="modal-body" style="height: 420px">
                                                              <ul class="menu-popup">
                                                                         <li>
                                                                             <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Manicure </div>
-                                                                                <div class="col-md-3 price">$20</div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Manicure French</div>
-                                                                                <div class="col-md-3 price">$25</div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Children Pedicure (under 12 year) </div>
-                                                                                <div class="col-md-3 price">$25</div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Children Pedicure French(under 12 year) </div>
-                                                                                <div class="col-md-3 price">$30</div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Pedicure</div>
-                                                                                <div class="col-md-3 price">$30</div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Pedicure French</div>
-                                                                                <div class="col-md-3 price">$35</div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Manicure & Children Pedicure</div>
+                                                                                <div class="col-md-9 menu-item">Full Set or Acrylic </div>
                                                                                 <div class="col-md-3 price">$40</div>
                                                                             </div>
                                                                         </li>
                                                                         <li>
                                                                             <div class="row p-3">
-                                                                                <div class="col-md-9 menu-item">Manicure & Children Pedi French (Both)</div>
+                                                                                <div class="col-md-9 menu-item">Full Set of White Tip </div>
+                                                                                <div class="col-md-3 price">$45</div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="row p-3">
+                                                                                <div class="col-md-9 menu-item">Full Set of Gel </div>
                                                                                 <div class="col-md-3 price">$50</div>
                                                                             </div>
                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Manicure & MPeakdeicaunreappointment (/book)</div>
-                                                                                 <div class="col-md-3 price">$50</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Manicure & Pedicure French (Both)</div>
-                                                                                 <div class="col-md-3 price">$60</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Nail Removal with Manicure</div>
-                                                                                 <div class="col-md-3 price">$25</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Nail Design by Hand</div>
-                                                                                 <div class="col-md-3 price">$5 & up</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Cut Down</div>
-                                                                                 <div class="col-md-3 price">$3</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Nail Repair</div>
-                                                                                 <div class="col-md-3 price">$5</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Polish Change Nail</div>
-                                                                                 <div class="col-md-3 price">$10</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Polish Change Toe</div>
-                                                                                 <div class="col-md-3 price">$15</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Para n Treatment Hand</div>
-                                                                                 <div class="col-md-3 price">$10</div>
-                                                                             </div>
-                                                                         </li>
-                                                                         <li>
-                                                                             <div class="row p-3">
-                                                                                 <div class="col-md-9 menu-item">Para n Treatment Feet</div>
-                                                                                 <div class="col-md-3 price">$10</div>
-                                                                             </div>
-                                                                         </li>
-
-
-
+                                                                        <li>
+                                                                            <div class="row p-3">
+                                                                                <div class="col-md-9 menu-item">Full Set of Silk Wrap </div>
+                                                                                <div class="col-md-3 price">$60</div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="no-line">
+                                                                            <div class="row p-3">
+                                                                                <div class="col-md-9 menu-item">Full Set of Pink and White</div>
+                                                                                <div class="col-md-3 price"></div>
+                                                                            </div>
+                                                                        </li>
                                                                     </ul>
                                                         </div>
-                                                        <!--<div class="modal-footer">-->
-                                                            <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
-                                                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-                                                        <!--</div>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -364,8 +355,7 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-3.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Fill - Ins</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                            <div class="row justify-content-between mr-lg-1 mr-xl-3">
+                            <div class="row justify-content-between mr-lg-1 mr-xl-0">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
@@ -376,32 +366,60 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)">
+                                            <a data-toggle="modal" data-target="#FillIns">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <ul class="dropdown_menu">
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure </div>
-                                                        <div class="col-md-4 price">$20</div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="FillIns" tabindex="-1" role="dialog" aria-labelledby="FillInsTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title text-black" id="FillInsTitle">Fill - Ins</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body" style="height: 420px">
+                                                            <ul class="menu-popup">
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Fill Ins of AMcarkyeliacn appointment (/book)</div>
+                                                                        <div class="col-md-3 price"></div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Fill Ins of White Tip</div>
+                                                                        <div class="col-md-3 price">$35</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Fill Ins of Gel</div>
+                                                                        <div class="col-md-3 price">$40</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Fill Ins of Silk Wrap</div>
+                                                                        <div class="col-md-3 price">$45</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-line">
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Fill Ins of Pink and White</div>
+                                                                        <div class="col-md-3 price">$45</div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure French</div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure </div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -414,7 +432,6 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-4.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>New Service</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                             <div class="row justify-content-between mr-lg-1 mr-xl-3">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
@@ -426,32 +443,85 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)">
+                                            <a data-toggle="modal" data-target="#NewService">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <ul class="dropdown_menu">
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure </div>
-                                                        <div class="col-md-4 price">$20</div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="NewService" tabindex="-1" role="dialog" aria-labelledby="NewServiceTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title text-black" id="NewServiceTitle">New Service</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <ul class="menu-popup">
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Full Set of U.V Gel Color</div>
+                                                                        <div class="col-md-3 price">$55</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Full Set of Pink and White Gel</div>
+                                                                        <div class="col-md-3 price">$50</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">NU SKIN Pedicure (natural)</div>
+                                                                        <div class="col-md-3 price">$50</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Deluxe Spa Manicure</div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Deluxe Spa Pedicure</div>
+                                                                        <div class="col-md-3 price">$48</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">VIP Spa Manicure</div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">VIP Spa Pedicure</div>
+                                                                        <div class="col-md-3 price">$60</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Manicure GeMl aSkheeallnaacppointment (/book)</div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-line">
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Manicure Gel O.P.I</div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure French</div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure </div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -464,8 +534,7 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-5.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Eyelash Extension</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                            <div class="row justify-content-between mr-lg-1 mr-xl-3">
+                            <div class="row justify-content-between mr-lg-1 mr-xl-0">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
@@ -476,32 +545,42 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)">
+                                            <a data-toggle="modal" data-target="#EyelashExtension">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <ul class="dropdown_menu">
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure </div>
-                                                        <div class="col-md-4 price">$20</div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="EyelashExtension" tabindex="-1" role="dialog" aria-labelledby="EyelashExtensionTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title text-black" id="EyelashExtensionTitle">Eyelash Extension</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body" style="height: 220px">
+                                                            <ul class="menu-popup">
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-6 menu-item">Flare</div>
+                                                                        <div class="col-md-6 price">$80/$45 up</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-line">
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-6 menu-item">Single (natural)</div>
+                                                                        <div class="col-md-6 price">$200/$80 up</div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure French</div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure </div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -514,8 +593,7 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-6.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Dip Gel</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                            <div class="row justify-content-between mr-lg-1 mr-xl-3">
+                            <div class="row justify-content-between mr-lg-1 mr-xl-0">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
@@ -526,32 +604,54 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)">
+                                            <a data-toggle="modal" data-target="#DipGel">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <ul class="dropdown_menu">
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure </div>
-                                                        <div class="col-md-4 price">$20</div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="DipGel" tabindex="-1" role="dialog" aria-labelledby="DipGelTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title text-black" id="DipGelTitle">Dip Gel</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body" style="height:360px">
+                                                            <ul class="menu-popup">
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Dip Powder</div>
+                                                                        <div class="col-md-3 price">$45</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">French</div>
+                                                                        <div class="col-md-3 price">$50</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Dip Gel Manicure</div>
+                                                                        <div class="col-md-3 price">$50</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-line">
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Dipping Ombre</div>
+                                                                        <div class="col-md-3 price">$60</div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure French</div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure </div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -564,8 +664,7 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-7.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Waxing</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                            <div class="row justify-content-between mr-lg-1 mr-xl-3">
+                            <div class="row justify-content-between mr-lg-1 mr-xl-0">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
@@ -576,32 +675,132 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)">
+                                            <a data-toggle="modal" data-target="#Waxing">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <ul class="dropdown_menu">
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure </div>
-                                                        <div class="col-md-4 price">$20</div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="Waxing" tabindex="-1" role="dialog" aria-labelledby="WaxingTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title text-black" id="WaxingTitle">Dip Gel</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <ul class="menu-popup">
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Eyebrows   </div>
+                                                                        <div class="col-md-3 price">$15</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Lip</div>
+                                                                        <div class="col-md-3 price">$10</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Chin  </div>
+                                                                        <div class="col-md-3 price">$15 & up</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Chest  </div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Forehead</div>
+                                                                        <div class="col-md-3 price">$20</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Full Leg   </div>
+                                                                        <div class="col-md-3 price">$60 & up</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Half Leg</div>
+                                                                        <div class="col-md-3 price">$35</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Full Arm</div>
+                                                                        <div class="col-md-3 price">$50</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Half Arm</div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Under Arm     </div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Bikini Line    </div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Full Back</div>
+                                                                        <div class="col-md-3 price">$60</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Half Back</div>
+                                                                        <div class="col-md-3 price">$35</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Stomach    </div>
+                                                                        <div class="col-md-3 price">$30</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Finger or Toes</div>
+                                                                        <div class="col-md-3 price">$15</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Brazilian      </div>
+                                                                        <div class="col-md-3 price">$60 & up</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-line">
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">Leg with Bikini</div>
+                                                                        <div class="col-md-3 price"></div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure French</div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure </div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -614,8 +813,7 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-8.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Facial</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                            <div class="row justify-content-between mr-lg-1 mr-xl-3">
+                            <div class="row justify-content-between mr-lg-1 mr-xl-0">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
@@ -626,32 +824,42 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)">
+                                            <a data-toggle="modal" data-target="#Facial">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <ul class="dropdown_menu">
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure </div>
-                                                        <div class="col-md-4 price">$20</div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="Facial" tabindex="-1" role="dialog" aria-labelledby="FacialTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title text-black" id="FacialTitle">Facial</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body" style="height: 220px">
+                                                            <ul class="menu-popup">
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">60 min</div>
+                                                                        <div class="col-md-3 price">$80</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-line">
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">30 min</div>
+                                                                        <div class="col-md-3 price">$40</div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure French</div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure </div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -664,7 +872,6 @@
                         <a href="#"><img src="assets/images/ourservice/vstar-nails-service-image-9.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Nu Skin</h4></a>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                             <div class="row justify-content-between mr-lg-1 mr-xl-3">
                                 <div class="col-6 col-md-12 col-lg-6 align-self-center">
                                     <ul class="stars">
@@ -676,62 +883,42 @@
                                     </ul>
                                 </div>
                                 <div class="col-6 col-md-12 col-lg-6 col-xl-5 pr-md-0 mt-md-3 mt-lg-0 pl-lg-0">
-                                    <ul id="menu">
+                                    <ul class="menu">
                                         <li>
-                                            <a href="javascript:void(0)">
+                                            <a data-toggle="modal" data-target="#NuSkin">
                                                 Read more
                                                 <span class="arrow arrow-down"></span>
                                             </a>
-                                            <ul class="dropdown_menu">
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure </div>
-                                                        <div class="col-md-4 price">$20</div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="NuSkin" tabindex="-1" role="dialog" aria-labelledby="NuSkinTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title text-black" id="NuSkinTitle">Facial</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body" style="height: 220px">
+                                                            <ul class="menu-popup">
+                                                                <li>
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">60 min</div>
+                                                                        <div class="col-md-3 price">$120</div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-line">
+                                                                    <div class="row p-3">
+                                                                        <div class="col-md-9 menu-item">30 min</div>
+                                                                        <div class="col-md-3 price">$60</div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure French</div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure (under 12 year) </div>
-                                                        <div class="col-md-4 price">$25</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Children Pedicure French(under 12 year) </div>
-                                                        <div class="col-md-4 price">$30</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Pedicure</div>
-                                                        <div class="col-md-4 price">$30</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Pedicure French</div>
-                                                        <div class="col-md-4 price">$35</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure & Children Pedicure</div>
-                                                        <div class="col-md-4 price">$40</div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="row p-3">
-                                                        <div class="col-md-8 menu-item">Manicure & Children Pedi French (Both)</div>
-                                                        <div class="col-md-4 price">$50</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -756,16 +943,16 @@
           </div>
           <div class="col-md-6">
             <div class="left-content">
-              <h4>Lorem ipsum dolor sit amet </h4>
-              <p><a rel="nofollow" href="https://www.lldtek.com" target="_parent">Lorem ipsum dolor sit amet </a> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<a rel="nofollow" href="contact.html">Contact V Star Nails</a> for more info.</p>
+              <h4>Event Promotion This Month </h4>
+              <p><a rel="nofollow" href="https://www.lldtek.com" target="_parent">V Star Nails</a> have 20% off from Monday to Thursday this month</p>
               <ul class="featured-list">
-                <li><a>Mon: 10:00 am - 19:00 pm </a></li>
-                <li><a>Tue: 10:00 am - 19:00 pm </a></li>
-                <li><a>Wed: 10:00 am - 19:00 pm </a></li>
-                <li><a>Thu: 10:00 am - 19:00 pm </a></li>
-                <li><a>Fri: 10:00 am - 19:00 pm </a></li>
-                <li><a>Sat: 10:00 am - 19:00 pm</a></li>
-                <li><a>Sun: 10:00 am - 17:00 pm</a></li>
+                <li><a>Mon: 10:00 am - 7:00 pm </a></li>
+                <li><a>Tue: 10:00 am - 7:00 pm </a></li>
+                <li><a>Wed: 10:00 am - 7:00 pm </a></li>
+                <li><a>Thu: 10:00 am - 7:00 pm </a></li>
+                <li><a>Fri: 10:00 am - 7:00 pm </a></li>
+                <li><a>Sat: 10:00 am - 7:00 pm</a></li>
+                <li><a>Sun: 10:00 am - 5:00 pm</a></li>
               </ul>
               <a href="https://www.lldtek.com/salon/appt/MzMxMTl8dnN0YXJuYWlsNjF8TUFfMDcxNDZ8OTY3ZjY1YzJkNGU5YzA2MWUxNWVlOGM5NzA3MTZkNzE=" class="filled-button">Booking</a>
             </div>
@@ -788,7 +975,7 @@
               <div class="row">
                 <div class="col-md-8">
                   <h4>GET GIFT CARD</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
+                  <p>Sign up for our newsletter and get all the latest tips and tricks to polish your nails at a good rate!</p>
                 </div>
                 <div class="col-md-4">
                   <a href="https://www.lldtek.com/salon/appt/MzMxMTl8dnN0YXJuYWlsNjF8TUFfMDcxNDZ8OTY3ZjY1YzJkNGU5YzA2MWUxNWVlOGM5NzA3MTZkNzE=" class="filled-button">Appointment</a>
@@ -806,15 +993,15 @@
           <div class="col-md-12">
             <div class="inner-content">
               <p>Address: 61 Commerce Way, Plymouth, MA 02360 <br>       
-                Tel: 774-773-3902 | Email:  ebo.lotus@gmail.com <br><br>
-                Copyright &copy; 2022 - V Star Nails - Dev by <a rel="nofollow noopener" href="https://www.lldtek.com" target="_blank">LLDTEK</a><br>
+                Tel: 774-773-3902 | Email: letrongnhan733084@gmail.com <br><br>
+                Copyright &copy; 2022 V Star Nails Dev by <a rel="nofollow noopener" href="https://www.lldtek.com" target="_blank">LLDTEK</a><br>
               </p><br>
               <div class="col-md-12">
                 <div class="center-content">
                   <ul class="social-icons">
                     <li><a href="https://www.facebook.com/V-Star-Nails-103291685630021/?ref=pages_you_manage"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://g.page/VStarNailsPlymouth?share"><i class="fa fa-google"></i></a></li>
-                    <li><a href="https://www.instagram.com/v_star_nails_plymouth/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/vstarnailsinplymouth/"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                   </ul>
                 </div>
