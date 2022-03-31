@@ -1251,3 +1251,7 @@ a{
 .menu-popup li.no-line{
 	border: none;
 }
+.left-column-day{
+	width: 50px;
+	display: inline-block;
+}
