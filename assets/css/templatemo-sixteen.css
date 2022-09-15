@@ -1238,7 +1238,7 @@ button:focus{
 	color: black;
 }
 .modal-body{
-	height: 600px;
+	/* height: 600px; */
 	overflow-y: scroll;
 }
 .menu-popup .menu-item{
@@ -1260,4 +1260,8 @@ a{
 .left-column-day{
 	width: 50px;
 	display: inline-block;
+}
+
+.modal-body::-webkit-scrollbar{
+	display: none;
 }
